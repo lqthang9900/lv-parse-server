@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/index.js",
+            "env": {
+                "PORT": "3000",
+                "ENV": "local",
+                "APP_NAME": "LuanVan.App",
+                "APP_ID": "luan-van-app-id",
+                "MASTER_KEY": "hand-made-masterkey",
+                "SERVER_URL": "http://192.168.1.127:3000/parse",
+                "PARSE_MOUNT": "/parse",
+                "DATABASE_URI": "mongodb://127.0.0.1:27017/luanvanlocal"   
+            }
+        }
+    ]
+}
